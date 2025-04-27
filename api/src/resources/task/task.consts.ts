@@ -1,0 +1,8 @@
+export enum TaskStatus {
+    PENDING = 'PENDING',
+    COMPLETED = 'COMPLETED',
+}
+
+export const USER_TASK_LIMITER = 'USER_TASK_LIMITER';
+
+export const GLOBAL_TASK_LIMITER = 'GLOBAL_TASK_LIMITER';

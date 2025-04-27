@@ -5,4 +5,4 @@ import { UserModule } from './user/user.module';
 @Module({
     imports: [TaskModule, UserModule],
 })
-export class EntityModule {}
+export class ResourcesModule {}

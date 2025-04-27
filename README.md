@@ -20,17 +20,19 @@
 ## Run unit tests
 
 ```bash
-# development
 ./api $ yarn test
 
 # with coverage
 ./api $ yarn test:cov
 ```
 
-## Build image
-<p>App runs on port 3000</p>
+## Build and run image
 ```bash
-docker build -t soxo .
+#build
+./api $ docker build -t soxo .
+
+#run
+./api $ docker-compose -p soxo up
 ```
 
 ## Postman
